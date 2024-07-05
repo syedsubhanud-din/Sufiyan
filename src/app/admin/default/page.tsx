@@ -8,10 +8,11 @@ import CheckTableComponent from "@/app/components/TableComponents/CheckTable"
 import MoreHorizOutlinedIcon from '@mui/icons-material/MoreHorizOutlined';
 import PieChartComponent from "@/app/components/ChartsComponents/PieChart"
 import ArrowDropUpOutlinedIcon from '@mui/icons-material/ArrowDropUpOutlined';
-import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import BarChartComponent from "@/app/components/ChartsComponents/BarChart"
 import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDownOutlined';
 import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
+import ThreeCardComponent from "@/app/components/Dashboard/ThreeCard";
+import MyTable from "@/app/components/TableComponents/Table"
 
 export default function Dashboard() {
     return (
@@ -22,8 +23,8 @@ export default function Dashboard() {
                     <Headbar />
                     <MiniCard />
                     <ChartCardComponent />
-                    {/* Divided into two Left and Right */}
-                    <div className="p-2 grid grid-cols-1 place-items-center h-fit gap-5 md:grid-cols-2">
+                    <ThreeCardComponent />
+                    <div className="p-2 grid grid-cols-1 place-items-center h-fit gap-5 xl:grid-cols-2">
                         {/* Left Section is Sub divided into two upper and lower */}
                         <div className="bg-white h-full w-full p-6 rounded-2xl">
                             {/* Left */}
@@ -36,7 +37,7 @@ export default function Dashboard() {
                                 </div>
                             </div>
                             <div>
-                                <CheckTableComponent />
+                                <MyTable />
                             </div>
                         </div>
 
@@ -64,17 +65,21 @@ export default function Dashboard() {
                                 </div>
                             </div>
 
+                            {/* Pie Chart Component */}
                             {/* Right */}
-                            <div className="bg-white h-full w-full p-8 rounded-2xl">
-                                <div className="flex items-center justify-between">
+                            <div className="bg-white h-full w-full flex flex-col justify-center items-center p-8 rounded-2xl">
+                                <div className="w-full flex items-center justify-between">
                                     <h2 className="font-bold">Your Pie Chart</h2>
                                     <p>
                                         Monthly
                                         <KeyboardArrowDownOutlinedIcon />
                                     </p>
                                 </div>
+
+                                {/* Pie Chart */}
                                 <PieChartComponent />
-                                <div className="p-4 shadow-xl rounded-xl flex items-center justify-between">
+
+                                <div className="p-4 w-full shadow-xl rounded-xl flex items-center justify-between">
                                     <div>
                                         <div>
                                             <FiberManualRecordIcon className="text-[#422afb]" style={{ fontSize: 16 }} />
@@ -95,6 +100,7 @@ export default function Dashboard() {
                         </div>
 
                     </div>
+                    {/* Divided into two Left and Right */}
                 </div>
             </div>
         </>

@@ -13,8 +13,25 @@ import {
 
 export default function MyTable() {
     return (
-        <TableContainer className="rounded-xl border-none" component={Paper} sx={{ maxWidth: '50rem' }}>
-            <Table aria-label="Simple table">
+        <TableContainer
+            sx={{
+                [`& .${tableCellClasses.root}`]: {
+                    border: 'none',
+                    boxShadow: 'none',
+                    color: 'gray',
+                    fontWeight: 'bold',
+                    maxWidth: '50rem'
+                }
+            }}
+            className="rounded-xl border-none" component={Paper}>
+            <Table
+                sx={{
+                    [`& .${tableCellClasses.root}`]: {
+                        color: 'gray',
+                        fontWeight: 'bold'
+                    }
+                }}
+                aria-label="Simple table">
                 <TableHead>
                     <TableRow>
                         <TableCell>NAME</TableCell>
@@ -26,7 +43,7 @@ export default function MyTable() {
                 <TableBody sx={{
                     [`& .${tableCellClasses.root}`]: {
                         borderBottom: "none",
-                        color: 'gray',
+                        color: 'black',
                         fontWeight: 'bold'
                     }
                 }}>

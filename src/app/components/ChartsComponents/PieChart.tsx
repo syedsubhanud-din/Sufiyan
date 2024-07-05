@@ -8,7 +8,7 @@ const data1 = [
 
 export default function PieChartComponent() {
     return (
-        <PieChart
+        <PieChart className='w-fit'
             series={[
                 {
                     outerRadius: 80,
@@ -16,6 +16,7 @@ export default function PieChartComponent() {
                 },
             ]}
             height={300}
+            width={300}
             slotProps={{
                 legend: { hidden: true },
             }}
