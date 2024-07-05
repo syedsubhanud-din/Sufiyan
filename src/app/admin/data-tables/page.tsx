@@ -1,5 +1,5 @@
 import Nav from "@/app/components/Nav"
-import MyTable from "@/app/components/DataTables/Table"
+import MyTable from "@/app/components/TableComponents/Table"
 
 export default function DataTables() {
     return (
