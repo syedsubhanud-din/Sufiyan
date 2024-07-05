@@ -95,46 +95,48 @@ const TableData = [{
     "progress": "hwarsap3@samsung.com",
     "gender": "Male",
     "tech": "28.162.242.84"
-}, {
-    "id": 5,
-    "first_name": "Chester",
-    "last_name": "Hallatt",
-    "progress": "challatt4@vk.com",
-    "gender": "Male",
-    "tech": "50.185.240.213"
-}, {
-    "id": 6,
-    "first_name": "Dante",
-    "last_name": "Kemwall",
-    "progress": "dkemwall5@answers.com",
-    "gender": "Male",
-    "tech": "37.137.225.150"
-}, {
-    "id": 7,
-    "first_name": "Amil",
-    "last_name": "Mower",
-    "progress": "amower6@domainmarket.com",
-    "gender": "Female",
-    "tech": "3.189.214.218"
-}, {
-    "id": 8,
-    "first_name": "Jimmie",
-    "last_name": "Basindale",
-    "progress": "jbasindale7@addthis.com",
-    "gender": "Male",
-    "tech": "116.208.28.255"
-}, {
-    "id": 9,
-    "first_name": "Aldric",
-    "last_name": "Lysaght",
-    "progress": "alysaght8@hhs.gov",
-    "gender": "Male",
-    "tech": "164.54.81.112"
-}, {
-    "id": 10,
-    "first_name": "Cece",
-    "last_name": "Verbruggen",
-    "progress": "cverbruggen9@google.pl",
-    "gender": "Male",
-    "tech": "242.52.182.206"
-}]
+},
+    //   {
+    //     "id": 5,
+    //     "first_name": "Chester",
+    //     "last_name": "Hallatt",
+    //     "progress": "challatt4@vk.com",
+    //     "gender": "Male",
+    //     "tech": "50.185.240.213"
+    // }, {
+    //     "id": 6,
+    //     "first_name": "Dante",
+    //     "last_name": "Kemwall",
+    //     "progress": "dkemwall5@answers.com",
+    //     "gender": "Male",
+    //     "tech": "37.137.225.150"
+    // }, {
+    //     "id": 7,
+    //     "first_name": "Amil",
+    //     "last_name": "Mower",
+    //     "progress": "amower6@domainmarket.com",
+    //     "gender": "Female",
+    //     "tech": "3.189.214.218"
+    // }, {
+    //     "id": 8,
+    //     "first_name": "Jimmie",
+    //     "last_name": "Basindale",
+    //     "progress": "jbasindale7@addthis.com",
+    //     "gender": "Male",
+    //     "tech": "116.208.28.255"
+    // }, {
+    //     "id": 9,
+    //     "first_name": "Aldric",
+    //     "last_name": "Lysaght",
+    //     "progress": "alysaght8@hhs.gov",
+    //     "gender": "Male",
+    //     "tech": "164.54.81.112"
+    // }, {
+    //     "id": 10,
+    //     "first_name": "Cece",
+    //     "last_name": "Verbruggen",
+    //     "progress": "cverbruggen9@google.pl",
+    //     "gender": "Male",
+    //     "tech": "242.52.182.206"
+    // }
+]
